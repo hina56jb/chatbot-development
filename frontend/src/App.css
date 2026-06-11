@@ -1,0 +1,20 @@
+.app {
+  min-height: 100vh;
+}
+
+.error-banner {
+  max-width: 1200px;
+  margin: 1rem auto;
+  padding: 1rem 1.5rem;
+  background: #fef2f2;
+  color: #dc2626;
+  border-radius: 12px;
+  border: 1px solid #fecaca;
+}
+
+.loading-state {
+  text-align: center;
+  padding: 4rem;
+  color: #64748b;
+  font-size: 1.125rem;
+}

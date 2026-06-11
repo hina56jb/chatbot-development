@@ -1,0 +1,24 @@
+.testimonial {
+  padding: 2rem;
+  text-align: center;
+}
+
+.testimonial__stars {
+  color: #f59e0b;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  letter-spacing: 2px;
+}
+
+.testimonial p {
+  color: #475569;
+  font-style: italic;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+.testimonial__author {
+  font-weight: 600;
+  color: #0f172a;
+  font-size: 0.875rem;
+}

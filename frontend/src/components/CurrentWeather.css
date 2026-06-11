@@ -1,0 +1,68 @@
+.current {
+  padding: 2rem;
+}
+
+.current__main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.current__location h3 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.current__condition {
+  color: #64748b;
+  text-transform: capitalize;
+  margin-top: 0.25rem;
+}
+
+.current__temp-block {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.current__icon {
+  font-size: 3.5rem;
+}
+
+.current__temp {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #0ea5e9;
+  line-height: 1;
+}
+
+.current__stat {
+  text-align: center;
+  padding: 1rem;
+  background: #f8fafc;
+  border-radius: 12px;
+}
+
+.current__stat-label {
+  display: block;
+  font-size: 0.8rem;
+  color: #64748b;
+  margin-bottom: 0.375rem;
+}
+
+.current__stat-value {
+  font-weight: 600;
+  color: #0f172a;
+}
+
+@media (max-width: 640px) {
+  .current__main {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
+}

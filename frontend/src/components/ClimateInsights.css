@@ -1,0 +1,21 @@
+.insight {
+  padding: 2rem;
+}
+
+.insight__icon {
+  font-size: 2.5rem;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.insight h3 {
+  font-size: 1.125rem;
+  color: #0f172a;
+  margin-bottom: 0.5rem;
+}
+
+.insight p {
+  color: #64748b;
+  font-size: 0.9rem;
+  line-height: 1.7;
+}

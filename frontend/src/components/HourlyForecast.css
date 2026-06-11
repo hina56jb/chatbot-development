@@ -1,0 +1,48 @@
+.hourly {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  padding-bottom: 0.5rem;
+}
+
+.hourly__item {
+  min-width: 120px;
+  text-align: center;
+  padding: 1.25rem 1rem;
+  flex-shrink: 0;
+}
+
+.hourly__time {
+  display: block;
+  font-weight: 600;
+  font-size: 0.875rem;
+  color: #0f172a;
+  margin-bottom: 0.5rem;
+}
+
+.hourly__icon {
+  font-size: 1.75rem;
+  display: block;
+  margin-bottom: 0.375rem;
+}
+
+.hourly__temp {
+  display: block;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #0ea5e9;
+  margin-bottom: 0.25rem;
+}
+
+.hourly__condition {
+  display: block;
+  font-size: 0.7rem;
+  color: #64748b;
+  text-transform: capitalize;
+  margin-bottom: 0.375rem;
+}
+
+.hourly__rain {
+  font-size: 0.75rem;
+  color: #3b82f6;
+}
